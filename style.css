@@ -1,0 +1,20 @@
+body{
+    background-color:grey;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+}
+.cir{
+    background-color:red;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border:2px solid black;
+    position:relative;
+    animation:moveCir 1.5s infinite ease-in-out;
+}
+@keyframes moveCir {
+    0%,100%{transform:translateY(0px);}
+    50%{transform:translateY(300px);}
+    
+}
